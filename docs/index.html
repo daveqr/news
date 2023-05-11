@@ -1,4 +1,105 @@
-<a href="./angular">angular</a><br/>
-<a href="./react">react</a><br/>
-<a href="./vue">vue</a><br/>
-<a href="./template.html">template</a>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Index</title>
+    <style>
+        /* General styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #222;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        a {
+            color: #fff;
+            display: block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background-color: #0077b5;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+
+        a:hover {
+            background-color: #005b8e;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Front-End Javascript Framework Demos</h1>
+        </header>
+
+        <nav>
+            <a href="./angular" target="_blank">Angular</a>
+            <a href="./react" target="_blank">React</a>
+            <a href="./vue" target="_blank">Vue</a>
+        </nav>
+
+        <footer>
+            <p>&copy; 2023 Web Index. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
