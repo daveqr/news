@@ -1,4 +1,3 @@
-// const res = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=6dc7b3b6ef4048c3bd0766e3165f44d1');
 import React from 'react';
 import { useQuery } from 'react-query';
 

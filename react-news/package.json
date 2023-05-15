@@ -2,6 +2,7 @@
   "name": "react-news",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/news/react",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.14.1",
@@ -15,6 +16,9 @@
     "redux": "^4.2.1",
     "web-vitals": "^2.1.0"
   },
+  "build": {
+    "outDir": "../docs/react"
+  },  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

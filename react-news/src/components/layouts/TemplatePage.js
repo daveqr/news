@@ -14,7 +14,6 @@ function TemplatePage() {
 
     return (
         <div>
-
             <body>
                 <header>
                     News Site
